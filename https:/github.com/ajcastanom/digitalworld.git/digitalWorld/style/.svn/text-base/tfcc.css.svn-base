@@ -1,0 +1,127 @@
+@CHARSET "ISO-8859-1";
+
+/*--- estilo para el h2 del formulario ---*/
+#fm1 h2 {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border-radius: 5px;
+    color: #5CD053;
+    display: block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 433px;
+}
+
+/*--- estilos para los ul y li del formulario ---*/
+#fm1 ul {
+    width:750px;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+#fm1 li{
+    padding:12px;
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+
+/*--- estilo para el label del formulario ---*/
+#fm1 label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+
+/*--- estilo para los inpux del formulario  damos un ancho, alto y 
+	  padding, de igual manera al textarea y al botón de 
+	  enviar la damos un margin left para posicionarlo ---*/
+	  
+#fm1 input {
+    height:20px;
+    width:220px;
+    padding:5px 8px;
+}
+#fm1 textarea {
+    padding:8px;
+    width:300px;
+}
+#fm1 button {
+    margin-left:90px;
+}
+
+/*----- estilos visuales de los elementos --------*/
+#fm1 input, #fm1 textarea, #fm1 select, #fm1 option {
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+    color: #888;
+    font-size: 12px;
+    padding-right:30px;
+    -moz-transition: padding .25s;
+    -webkit-transition: padding .25s;
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+#fm1 input:focus, #fm1 textarea:focus {
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right:80px;
+}
+
+
+/*--- estilo para los select del formulario --------*/
+#fm1 select {
+    height: 30px !important;
+    width:260px !important;
+    padding:5px !important;  
+}
+
+/* === Estilos de Validacion === */
+#fm1 input:required:valid, #fm1 textarea:required:valid {
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+#fm1 input:focus:invalid, #fm1 textarea:focus:invalid {
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+
+
+/* === Estilos del boton de Recarga === */
+button.submit {
+    padding: 9px 17px;
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   line-height: 1;
+   color: #444;
+   border: none;
+   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+   background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+   background-color: #fff;
+   border: 1px solid #f1f1f1;
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+button.submit:hover {
+    opacity:.55;
+    cursor: pointer;
+    color: #fff;
+}
+button.submit:active {
+    border: 1px solid #222;
+    box-shadow: 0 0 10px 5px #444 inset;
+}
+
+
+
+
+
