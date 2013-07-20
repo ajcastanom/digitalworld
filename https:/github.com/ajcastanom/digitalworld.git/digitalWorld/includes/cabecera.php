@@ -1,1 +1,0 @@
-<div class="logo"><img src="images/logo.jpg" width="270" height="170" align="right" alt="DigitalWorld"></div>
